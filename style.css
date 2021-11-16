@@ -1,0 +1,59 @@
+
+
+body {
+    font-size: 22px;
+    font-family: sans-serif;
+    background-color: white;
+}
+header{
+    background-color: rgba(000, 000, 000, 5);
+    display: inline-block;
+    width: 100%;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.choice{
+    margin-top: 2.5rem;
+    padding-right: 3.8rem;
+    padding-left: 3.8rem;
+}
+
+.wrapper{
+
+    padding: 2em;
+    border-radius: 8px;
+    background-color: grey;
+    margin-top: 10px;
+    
+}
+
+.button{
+    background-color: grey;
+    border-style: none;
+    border: 0px;
+    outline: none;
+}
+
+.menu{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+
