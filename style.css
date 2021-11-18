@@ -1,12 +1,10 @@
-
-
-body {
-    font-size: 22px;
-    font-family: sans-serif;
-    background-color: white;
+body{
+    overflow-x: hidden;
+    background-color: rgb(145, 145, 145);
 }
+
 header{
-    background-color: rgba(000, 000, 000, 5);
+    background-color: azure;
     display: inline-block;
     width: 100%;
 }
@@ -20,40 +18,54 @@ li{
     display: inline-block;
     white-space: nowrap;
     font-size: 1.5rem;
-    color: blue;
+    color: white;
 }
 
 a{
     text-decoration: none;
 }
 
+nav{
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    overflow: auto;
+}
+
+nav a:hover{
+    background-color: none;
+    transition: 5s;
+    text-transform: uppercase;
+}
+
 .choice{
-    margin-top: 2.5rem;
-    padding-right: 3.8rem;
-    padding-left: 3.8rem;
-}
-
-.wrapper{
-
-    padding: 2em;
-    border-radius: 8px;
-    background-color: grey;
-    margin-top: 10px;
-    
-}
-
-.button{
-    background-color: grey;
-    border-style: none;
-    border: 0px;
-    outline: none;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .menu{
-    width: 100%;
-    align-items: center;
-    position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(26, 26, 26);
+    text-align: right;
 }
 
+.menu-section{
+    font-size: 2rem;
+}
 
+p{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 25rem;
+  
+    
+}
+
+.wrapper{
+    margin-top: 50px;
+}
