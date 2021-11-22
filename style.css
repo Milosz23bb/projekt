@@ -34,8 +34,9 @@ nav{
 
 nav a:hover{
     background-color: none;
-    transition: 5s;
+    transition: 0.5s;
     text-decoration: underline;
+    color: rgb(160, 160, 160);
 }
 
 .choice{
@@ -60,7 +61,7 @@ p{
 
 .logo{
     display: inline-block;
-    margin-right: 40rem;
+    margin-right: 30rem;
 }
 
 .wrapper{
