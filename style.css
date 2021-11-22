@@ -23,6 +23,7 @@ li{
 
 a{
     text-decoration: none;
+    margin-right: 10px;
 }
 
 nav{
@@ -58,13 +59,8 @@ p{
 }
 
 .logo{
-    color: white;
-    font-size: 2rem;
     display: inline-block;
-    margin-right: 50rem;
-    
-  
-    
+    margin-right: 40rem;
 }
 
 .wrapper{
@@ -80,5 +76,5 @@ p{
     width: 100%;
     color: white;
     position: absolute;
-
+    padding: 10px;
 }
