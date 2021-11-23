@@ -26,17 +26,25 @@ a{
     margin-right: 10px;
 }
 
+.btn{
+    color: white;
+    font-family: sans-serif;
+}
+
 nav{
     width: 100%;
     background-color: rgb(26, 26, 26);
     overflow: auto;
 }
 
+nav .btn:hover{
+    color: rgb(122, 122, 122);
+}
+
 nav a:hover{
     background-color: none;
     transition: 0.5s;
     text-decoration: underline;
-    color: rgb(160, 160, 160);
 }
 
 .choice{
@@ -61,7 +69,7 @@ p{
 
 .logo{
     display: inline-block;
-    margin-right: 30rem;
+    margin-right: 40rem;
 }
 
 .wrapper{
