@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: rgb(100, 92, 92);
+    background-color: whitesmoke
 }
 
 header{
@@ -24,6 +24,15 @@ li{
 a{
     text-decoration: none;
     margin-right: 10px;
+}
+
+.btn{
+    color: white;
+    font-family: sans-serif;
+}
+
+nav .btn:hover{
+    color: rgb(122, 122, 122);
 }
 
 nav{
@@ -63,13 +72,15 @@ p{
     color: white;
     font-size: 2rem;
     display: inline-block;
-    margin-right: 30rem;
+    margin-right: 40rem;
   
     
 }
 
 .wrapper{
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
@@ -82,4 +93,57 @@ p{
     position: absolute;
     padding: 10px;
 }
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+.menu-section{
+    background-color: whitesmoke;
+    margin: 0rem 45rem;
+    height: 20rem;
+    border-radius: 1rem;
+    font-size: small;
+    box-shadow: 2px 2px 10px 10px  grey;
+}
+
+.menu-section p{
+    color: black;
+}
+
+.login p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.login{
+    text-align:  center;
+    
+}
+
+.haslo{
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.haslo p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.wrapper .btn{
+    background-color: rgb(26, 26, 26);
+    margin-left: 40%;
+}
+
+.wrapper .btn:hover{
+    color: rgb(122, 122, 122);
+    transition: 0.5s;
+}
+
 
