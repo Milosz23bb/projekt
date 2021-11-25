@@ -87,3 +87,318 @@ p{
     position: absolute;
     padding: 10px;
 }
+
+@media all and (max-width: 1425px){
+    .choice{
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+    .choice{
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+}
+
+@media all and (max-width: 1380px){
+
+    .choice{
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;
+    }
+}
+
+@media all and (max-width: 1365px){
+
+    .choice{
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+
+}
+
+@media all and (max-width: 1345px){
+
+    .choice{
+        padding-right: 2.7rem;
+        padding-left: 2.7rem;
+    }
+}
+
+@media all and (max-width: 1330px){
+
+    .choice{
+        padding-left: 2.6rem;
+        padding-right: 2.6rem;
+    }
+}
+
+@media all and (max-width: 1300px){
+
+    .choice{
+        padding-left: 2.6rem;
+        padding-right: 2.6rem;
+    }
+}
+
+@media all and (max-width: 1285px){
+
+    .choice{
+        padding-left: 2.6rem;
+        padding-right: 2.6rem;
+    }
+}
+
+@media all and (max-width: 1265px){
+
+    .choice{
+        padding-left: 2.6rem;
+        padding-right: 2.6rem;
+    }
+}
+
+@media all and (max-width: 1250px){
+
+    .choice{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media all and (max-width: 1235px){
+
+    .choice{
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+    }
+}
+
+@media all and (max-width: 1220px){
+
+    .choice{
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+    }
+}
+
+@media all and (max-width: 1170px){
+
+    .choice{
+        padding-left: 2.1rem;
+        padding-right: 2.1rem;
+    }
+}
+
+@media all and (max-width: 1155px){
+
+    .choice{
+        padding-left: 2.0rem;
+        padding-right: 2.0rem;
+    }
+}
+
+@media all and (max-width: 1140px){
+
+    .choice{
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+    }
+}
+
+@media all and (max-width: 1120px){
+
+    .choice{
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+    }
+}
+
+@media all and (max-width: 1090px){
+
+    .choice{
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+        margin-top: 2rem;
+    }
+
+    .logo{
+        background: url(/shazah4.png);
+        width: 175px;
+        height: 65px;
+        margin: .5rem;
+    }
+}
+
+@media all and (max-width: 1050px){
+
+    .choice{
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+}
+
+@media all and (max-width: 1035px){
+
+    .choice{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media all and (max-width: 1020px){
+
+    .choice{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 965px){
+
+    .choice{
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}
+
+@media all and (max-width: 946px){
+
+    .choice{
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+}
+
+@media all and (max-width: 930px){
+
+    .logo{
+        background: url(/shazah4.png) left;
+        width: 140px;
+        height: 52px;
+        margin: .5rem;
+    }
+
+    li{
+        font-size: 1.2rem;
+    }
+
+    .choice{
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+        margin-top: 1.7rem;
+    }
+}
+
+@media all and (max-width: 880px){
+
+    .choice{
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+@media all and (max-width: 865px){
+
+    .choice{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media all and (max-width: 850px){
+
+    .choice{
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+}
+
+@media all and (max-width: 832px){
+
+    .choice{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+}
+
+@media all and (max-width: 815px){
+
+    .choice{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 780px){
+
+    header li{
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .menu{
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .dropdown-menu{
+        background: rgba(000, 000, 000, .5);
+    }
+
+    .dropdown-menu ul{
+        list-style: none;
+        padding: 1.5rem;
+        margin-left: -9rem;
+    }
+
+    .dropdown-menu a{
+        display: block;
+        text-decoration: none;
+    }
+
+    .dropdown-menu label{
+        display: block;
+        cursor: pointer;
+        margin-right: 4.5rem;
+        background: url(/koszyk.jpg) no-repeat right center;
+        height: 4rem;
+    }
+
+    input:checked ~ label{
+        background: url(/koszyk.jpg) no-repeat;
+    }
+
+    .input:checked ~ .menu-section{
+        max-height: 100%;
+    }
+
+    header{
+        background-color: rgba(000, 000, 000, .0);
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media all and (max-width: 580px){
+
+    p{
+        font-size: 1.6rem;
+    }
+}
+
+@media all and (max-width: 500px){
+
+    p{
+        font-size: 1.6rem;
+        width: 20rem;
+    }
+}
