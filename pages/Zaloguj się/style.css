@@ -59,10 +59,6 @@ nav a:hover{
     text-align: right;
 }
 
-.menu-section{
-    font-size: 2rem;
-}
-
 p{
     color: white;
     text-align: center;
@@ -101,15 +97,18 @@ h2{
 
 .menu-section{
     background-color: whitesmoke;
-    margin: 0rem 45rem;
+    margin: 10rem 20rem;
     height: 20rem;
     border-radius: 1rem;
     font-size: small;
     box-shadow: 2px 2px 10px 10px  grey;
+    width: 40rem;
+    align-items: center;
 }
 
 .menu-section p{
     color: black;
+    width: 200px;
 }
 
 .login p{
@@ -117,23 +116,28 @@ h2{
     text-align: center;
     margin-bottom: 0;
     padding-top: 10px;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .login{
     text-align:  center;
-    
+    width: 100px;
+    margin-left: 172px;
 }
 
 .haslo{
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
+
 }
 
 .haslo p{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
+    margin-left: 210px;
 }
 
 .wrapper .btn{
@@ -144,6 +148,10 @@ h2{
 .wrapper .btn:hover{
     color: rgb(122, 122, 122);
     transition: 0.5s;
+}
+
+.pamietasz p{
+    margin-left: 300px;
 }
 
 
