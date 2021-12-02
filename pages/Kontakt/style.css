@@ -60,7 +60,7 @@ nav a:hover{
 }
 
 .menu-section{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 p{
@@ -92,3 +92,9 @@ p{
     padding: 10px;
 }
 
+
+.mapa{
+    margin-left: 650px;
+    width: 10rem;
+    padding-top: 4rem;
+}
