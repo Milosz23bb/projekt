@@ -24,7 +24,7 @@ li{
 a{
     text-decoration: none;
     margin-right: 10px;
-    margin-left: 10px;
+
 }
 
 nav{
@@ -79,4 +79,9 @@ p{
     color: white;
     position: absolute;
     padding: 10px;
+}
+
+section{
+    margin-top: 5rem;
+    padding: 0.5rem;
 }
